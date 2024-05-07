@@ -1,4 +1,226 @@
+* {
+  background-color: brown;
+}
+
 .myApp {
-  background-image: url("./mountain.jpg");
   background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+button {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  padding: 25px;
+  border-radius: 50px;
+  background-color: transparent;
+}
+
+button:hover {
+  background-color: green;
+}
+
+.one {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 350px;
+  top: 50px;
+}
+
+.two {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 1110px;
+  top: 30px;
+}
+
+.three {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 1300px;
+  top: 260px;
+}
+
+.four {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 930px;
+  top: 250px;
+}
+
+.five {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 720px;
+  top: 490px;
+}
+
+.six {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 630px;
+  top: 100px;
+}
+
+.seven {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 1130px;
+  top: 490px;
+}
+
+.eight {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 460px;
+  top: 390px;
+}
+
+.nine {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 200px;
+  top: 300px;
+}
+
+.showValue {
+  background-color: transparent;
+  position: absolute;
+  top: 600px;
+  left: 650px;
+}
+
+.Time {
+  position: absolute;
+  top: 600px;
+  left: 1350px;
+  font-size: 50px;
+  color: white;
+  border-style: groove;
+  padding: 10px;
+  border-radius: 30px;
+  border-color: cornsilk;
+}
+
+ul {
+  list-style-type: none;
+  color: black;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+li {
+  display: inline;
+}
+
+/* Mobile view */
+
+@media only screen and (max-width: 600px) {
+  * {
+    background-color: rgb(0, 74, 99);
+  }
+
+  button {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 600;
+    border: none;
+    padding: 15px;
+    border-radius: 200px;
+    background-color: transparent;
+  }
+  .one {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 50px;
+    top: 750px;
+  }
+
+  .two {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 100px;
+    top: 30px;
+  }
+
+  .three {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 330px;
+    top: 150px;
+  }
+
+  .four {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 30px;
+    top: 250px;
+  }
+
+  .five {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+    top: 490px;
+  }
+
+  .six {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 150px;
+    top: 600px;
+  }
+
+  .seven {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 200px;
+    top: 300px;
+  }
+
+  .eight {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 300px;
+    top: 490px;
+  }
+
+  .nine {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 290px;
+    top: 700px;
+  }
+  .showValue {
+    background-color: transparent;
+    position: absolute;
+    left: 50px;
+    top: 800px;
+  }
+  .Time {
+    background-color: transparent;
+    position: absolute;
+    left: 250px;
+    top: 800px;
+  }
 }
